@@ -1,16 +1,29 @@
+html, body{
+  height: 100%;
+  width: 100%;
+}
+html{
+  display: table;
+}
 body{
-  background: #222;
+  display: table-cell;
+  vertical-align: middle;
+  background: #B5B5B5;
 }
 form{
   margin: auto;
   width: 500px;
   background-color: #fff;
-  padding: 15px;
+  padding: 35px;
   border-radius: 2px;
 }
 form>input{
   display: block;
-  margin-bottom: 10px;
+  font-size: 15px;
   width: 100%;
+  height: 30px;
   border-radius: 0px;
+}
+input:focus{
+  outline: none;
 }
