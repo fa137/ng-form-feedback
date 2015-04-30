@@ -1,0 +1,29 @@
+{
+  "name": "ng-form-feedback",
+  "main": "ng-form-feedback.js",
+  "version": "1.0.0",
+  "authors": [
+    "Fahimnur Alam <fahim@codexi.com>"
+  ],
+  "keywords": [
+    "angular",
+    "form",
+    "feedback",
+    "instant",
+    "color",
+    "config"
+  ],
+  "license": "MIT",
+  "homepage": "http://codexi.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.3.15",
+    "angular-mocks": "~1.3.15"
+  }
+}

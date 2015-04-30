@@ -4,22 +4,22 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
     <link rel="stylesheet" href="main.css">
   </head>
-  <body ng-app="sample">
+  <body ng-app="example">
     <form action="">
-      Text:
-      <input nff-min="20" type="text">
+      <h2>ng-forms-feedback example</h2>
+      <br>
+      Name:
+      <input nff-min="15" type="text">
       Password:
       <input nff-min="6" type="password">
-     <!--  Email:
+      Email:
       <input nff-min="12" type="email">
-      Number:
-      <input nff-min="15" type="number">
-      Url:
-      <input nff-min="8" type="url"> -->
+      Website:
+      <input nff-min="8" type="url"> 
     </form>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
-    <script src="ng-form-feedback.js"></script>
+  	
+    <script src="src/lib/angular/angular.min.js"></script>
+    <script src="dist/ng-form-feedback.min.js"></script>
     <script src="main.js"></script>
   </body>
 </html>
