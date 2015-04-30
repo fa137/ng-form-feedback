@@ -1,4 +1,4 @@
-angular.module("sample", ['ngFormFeedback']);
-
-
-// 12345678901234567890
+angular.module("sample", ['ngFormFeedback'])
+.run(function (nffSettings) {
+	nffSettings.phases[4] = "black";
+});
