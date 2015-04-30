@@ -8,21 +8,21 @@ html{
 body{
   display: table-cell;
   vertical-align: middle;
-  background: #B5B5B5;
+  background: #f1f1f1;
 }
 form{
   margin: auto;
-  width: 500px;
+  width: 300px;
   background-color: #fff;
   padding: 35px;
   border-radius: 2px;
 }
 form>input{
   display: block;
-  font-size: 15px;
   width: 100%;
   height: 30px;
-  border-radius: 0px;
+  font-size: 1.5em;
+/*  border-radius: 0px;*/
 }
 input:focus{
   outline: none;
