@@ -2,6 +2,8 @@
 
 An AngularJS directive for an interactive form feedback component
 
+<img src="/demo.gif" alt="demo" width="700"/>
+
 ## [live demo](https://rawgit.com/fa137/ng-form-feedback/master/index.html) 
 
 
