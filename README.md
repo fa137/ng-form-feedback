@@ -29,7 +29,7 @@ nff is really easy to implement to your existing angularjs application.
       <input nff-min="6" type="password">
     </form>
     ```
- * step 4: That's all. enjoy! :) 
+* step 4: That's all. enjoy! :) 
 
 
 ### Contact
