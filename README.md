@@ -10,15 +10,23 @@ An AngularJS directive for an interactive form feedback component
 ### How to install?
 
 nff is really easy to implement to your existing angularjs application. 
-* step 1: add the nff file, located under /dist 
+* step 1: download and add the nff file, located under /dist 
 	```
-    <script src="angular.min.js"></script>
-    <script src="ng-form-feedback.js"></script> 
-    ```
+	<script src="angular.min.js"></script>
+	<script src="ng-form-feedback.js"></script> 
+	```
+    
     there is also minified version
     ```
     <script src="ng-form-feedback.min.js"></script> 
-	```
+    ```
+    
+    download via bower
+    ```
+    bower install ng-form-feedback
+    ```
+    
+    
 * step 2: inject the directive to your app
 	```
     angular.module("example", ['ngFormFeedback'])
