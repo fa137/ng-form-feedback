@@ -33,11 +33,17 @@ angular.module("ngFormFeedback", [])
   }])
   .directive('nffMin', ['nffSettings', function (nffSettings) {
     var link = function (scope, elem, attr) {
-      
+
       elem.css("display", "block");
       var bar = elem.find("nff-bar");
       var inputField = elem.find("input");
-      
+
+      angular.forEach(attr, function(val, att){
+        if(attr.$attr[att] != undefined){
+          inputField.attr(attr.$attr[att], val);
+          elem[0].removeAttribute(attr.$attr[att]);
+        }
+      });
       var barStyles = {
         "height": nffSettings.height + "px",
         "width": "0px",
@@ -70,7 +76,7 @@ angular.module("ngFormFeedback", [])
           "background": background,
           "width": updatedWidth + "px"
         };
-  	 
+
         bar.css(updatedStyles);
 
       });
@@ -86,7 +92,7 @@ angular.module("ngFormFeedback", [])
       restrict: 'A',
       scope: {},
       replace: true,
-      transclude: true,
+      transclude: 'true',
       template: '<nff-field><input ng-transclude><nff-bar></nff-bar></nff-field>',
       link: link
     };
