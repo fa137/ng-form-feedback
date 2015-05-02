@@ -1,6 +1,6 @@
 # ng-form-feedback
 
-An AngularJS directive for an interactive form feedback component
+An AngularJS directive for an interactive form feedback directive
 
 <img src="/demo.gif" alt="demo" width="700"/>
 
